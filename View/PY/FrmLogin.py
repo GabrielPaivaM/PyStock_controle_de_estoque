@@ -21,7 +21,7 @@ class Ui_login(object):
         self.centralwidget.setObjectName("centralwidget")
         self.frame = QtWidgets.QFrame(self.centralwidget)
         self.frame.setGeometry(QtCore.QRect(90, 20, 461, 551))
-        self.frame.setStyleSheet("background-color: rgb(159, 63, 250);\n"
+        self.frame.setStyleSheet("background-color: rgb(20, 71, 224);\n"
 "border-radius: 10px;")
         self.frame.setFrameShape(QtWidgets.QFrame.StyledPanel)
         self.frame.setFrameShadow(QtWidgets.QFrame.Raised)
@@ -54,7 +54,7 @@ class Ui_login(object):
         self.frame_2.setGeometry(QtCore.QRect(539, 49, 361, 491))
         self.frame_2.setStyleSheet("background-color: white;\n"
 "border-radius: 10px;\n"
-"border: 4px solid #9F3FFA;\n"
+"border: 4px solid #1447e0;\n"
 "color: white;\n"
 "font: 10pt \"Montserrat\";\n"
 "")
@@ -71,7 +71,7 @@ class Ui_login(object):
         self.lineEdit.setGeometry(QtCore.QRect(50, 180, 271, 51))
         self.lineEdit.setStyleSheet("background-color: rgba(0, 0 , 0, 0);\n"
 "border: 2px solid rgba(0,0,0,0);\n"
-"border-bottom-color: rgb(159, 63, 250);\n"
+"border-bottom-color: rgb(20, 71, 224);\n"
 "color: rgb(0,0,0);\n"
 "padding-bottom: 8px;\n"
 "border-radius: 0px;\n"
@@ -82,7 +82,7 @@ class Ui_login(object):
         self.lineEdit_2.setGeometry(QtCore.QRect(50, 260, 271, 51))
         self.lineEdit_2.setStyleSheet("background-color: rgba(0, 0 , 0, 0);\n"
 "border: 2px solid rgba(0,0,0,0);\n"
-"border-bottom-color: rgb(159, 63, 250);\n"
+"border-bottom-color: rgb(20, 71, 224);\n"
 "color: rgb(0,0,0);\n"
 "padding-bottom: 8px;\n"
 "border-radius: 0px;\n"
@@ -95,11 +95,11 @@ class Ui_login(object):
         self.pushButton.setGeometry(QtCore.QRect(50, 380, 271, 51))
         self.pushButton.setStyleSheet("QPushButton {\n"
 "border: 2px;\n"
-"background-color: rgb(159, 63, 250);\n"
+"background-color: rgb(20, 71, 224);\n"
 "}\n"
 "\n"
 "QPushButton:hover {\n"
-"    background-color: rgb(197, 62, 255); outline: 0;\n"
+"    background-color: rgb(8, 32, 105); outline: 0;\n"
 "}\n"
 "")
         self.pushButton.setObjectName("pushButton")

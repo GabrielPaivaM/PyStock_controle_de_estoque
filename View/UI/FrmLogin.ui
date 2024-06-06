@@ -24,7 +24,7 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(159, 63, 250);
+     <string notr="true">background-color: rgb(20, 71, 224);
 border-radius: 10px;</string>
     </property>
     <property name="frameShape">
@@ -111,7 +111,7 @@ visor para criá-lo.</string>
     <property name="styleSheet">
      <string notr="true">background-color: white;
 border-radius: 10px;
-border: 4px solid #9F3FFA;
+border: 4px solid #038a0c;
 color: white;
 font: 10pt &quot;Montserrat&quot;;
 </string>
@@ -152,7 +152,7 @@ border: 0px;</string>
      <property name="styleSheet">
       <string notr="true">background-color: rgba(0, 0 , 0, 0);
 border: 2px solid rgba(0,0,0,0);
-border-bottom-color: rgb(159, 63, 250);
+border-bottom-color: rgb(20, 71, 224);
 color: rgb(0,0,0);
 padding-bottom: 8px;
 border-radius: 0px;
@@ -174,7 +174,7 @@ font: 10pt &quot;Montserrat&quot;;</string>
      <property name="styleSheet">
       <string notr="true">background-color: rgba(0, 0 , 0, 0);
 border: 2px solid rgba(0,0,0,0);
-border-bottom-color: rgb(159, 63, 250);
+border-bottom-color: rgb(20, 71, 224);
 color: rgb(0,0,0);
 padding-bottom: 8px;
 border-radius: 0px;
@@ -202,11 +202,11 @@ font: 10pt &quot;Montserrat&quot;;</string>
      <property name="styleSheet">
       <string notr="true">QPushButton {
 border: 2px;
-background-color: rgb(159, 63, 250);
+background-color: rgb(20, 71, 224);
 }
 
 QPushButton:hover {
-	background-color: rgb(197, 62, 255);
+	background-color: rgb(8, 32, 105);
 }
 </string>
      </property>
