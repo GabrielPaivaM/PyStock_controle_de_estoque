@@ -3545,9 +3545,9 @@ class Ui_FrmAdmin(object):
         self.btn_voltar.setIconSize(QtCore.QSize(70, 200))
         self.btn_voltar.setObjectName("btn_voltar")
         self.lbl_seja_bem_vindo = QtWidgets.QLabel(self.barra_menu_topo)
-        self.lbl_seja_bem_vindo.setGeometry(QtCore.QRect(20, 15, 360, 51))
+        self.lbl_seja_bem_vindo.setGeometry(QtCore.QRect(20, 15, 780, 51))
         self.lbl_seja_bem_vindo.setStyleSheet("color: white;\n"
-"font: 15pt \"Montserrat\";")
+"font: 13pt \"Montserrat\";")
         self.lbl_seja_bem_vindo.setTextInteractionFlags(QtCore.Qt.LinksAccessibleByMouse | QtCore.Qt.TextSelectableByMouse)
         self.lbl_seja_bem_vindo.setObjectName("lbl_seja_bem_vindo")
         self.Telas_do_menu = QtWidgets.QStackedWidget(self.Admin)
@@ -3641,7 +3641,7 @@ class Ui_FrmAdmin(object):
         self.label_3 = QtWidgets.QLabel(self.home)
         self.label_3.setGeometry(QtCore.QRect(100, 350, 800, 131))
         self.label_3.setStyleSheet("color: #4F4F4F;\n"
-"font: 35pt \"Montserrat\";")
+"font: 30pt \"Montserrat\";")
         self.label_3.setTextInteractionFlags(QtCore.Qt.LinksAccessibleByMouse | QtCore.Qt.TextSelectableByMouse)
         self.label_3.setObjectName("label_3")
         self.funcoes.addWidget(self.home)
@@ -3658,14 +3658,14 @@ class Ui_FrmAdmin(object):
         self.pg_configuracoes = QtWidgets.QWidget()
         self.pg_configuracoes.setObjectName("pg_configuracoes")
         self.checkBox_finalizar_app = QtWidgets.QCheckBox(self.pg_configuracoes)
-        self.checkBox_finalizar_app.setGeometry(QtCore.QRect(40, 120, 340, 40))
+        self.checkBox_finalizar_app.setGeometry(QtCore.QRect(40, 120, 450, 40))
         self.checkBox_finalizar_app.setStyleSheet("font: 15pt \"Montserrat\";\n"
 "color: #4F4F4F;\n"
 "")
         self.checkBox_finalizar_app.setObjectName("checkBox_finalizar_app")
         self.lbl_titulo_configuracoes = QtWidgets.QLabel(self.pg_configuracoes)
         self.lbl_titulo_configuracoes.setGeometry(QtCore.QRect(40, 40, 300, 61))
-        self.lbl_titulo_configuracoes.setStyleSheet("font: 25pt \"Montserrat\";\n"
+        self.lbl_titulo_configuracoes.setStyleSheet("font: 20pt \"Montserrat\";\n"
 "color: #4F4F4F;\n"
 "")
         self.lbl_titulo_configuracoes.setTextFormat(QtCore.Qt.AutoText)
@@ -3674,7 +3674,7 @@ class Ui_FrmAdmin(object):
         self.lbl_titulo_configuracoes.setObjectName("lbl_titulo_configuracoes")
 
         self.lbl_valor_inicio = QtWidgets.QLabel(self.pg_configuracoes)
-        self.lbl_valor_inicio.setGeometry(QtCore.QRect(40, 805, 290, 41))
+        self.lbl_valor_inicio.setGeometry(QtCore.QRect(40, 805, 400, 41))
         self.lbl_valor_inicio.setStyleSheet("font: 17pt \"Montserrat\";\n"
                                                     "color: #4F4F4F;\n"
                                                     "")
@@ -3771,7 +3771,7 @@ class Ui_FrmAdmin(object):
         self.lbl_titulo_forncedores = QtWidgets.QLabel(self.pg_fornecedores)
         self.lbl_titulo_forncedores.setGeometry(QtCore.QRect(40, 30, 600, 51))
         self.lbl_titulo_forncedores.setStyleSheet("color: #4F4F4F;\n"
-"font: 25pt \"Montserrat\";")
+"font: 20pt \"Montserrat\";")
         self.lbl_titulo_forncedores.setTextInteractionFlags(QtCore.Qt.LinksAccessibleByMouse | QtCore.Qt.TextSelectableByMouse)
         self.lbl_titulo_forncedores.setObjectName("lbl_titulo_forncedores")
         self.btn_editar_fornecedores = QtWidgets.QPushButton(self.pg_fornecedores)
@@ -3899,7 +3899,7 @@ class Ui_FrmAdmin(object):
         self.line_search_Bar_fornecedores.setClearButtonEnabled(True)
         self.line_search_Bar_fornecedores.setObjectName("line_search_Bar_fornecedores")
         self.lbl_hora_data_fornecedores = QtWidgets.QLabel(self.pg_fornecedores)
-        self.lbl_hora_data_fornecedores.setGeometry(QtCore.QRect(1600, 800, 290, 46))
+        self.lbl_hora_data_fornecedores.setGeometry(QtCore.QRect(1550, 850, 290, 46))
         self.lbl_hora_data_fornecedores.setStyleSheet("font: 15pt \"Montserrat\";\n"
 "color: #4F4F4F;\n"
 "")
@@ -3913,7 +3913,7 @@ class Ui_FrmAdmin(object):
         self.lbl_titulo_alterar_fornecedores = QtWidgets.QLabel(self.pg_alterar_fornecedores)
         self.lbl_titulo_alterar_fornecedores.setGeometry(QtCore.QRect(40, 30, 600, 81))
         self.lbl_titulo_alterar_fornecedores.setStyleSheet("color: #4F4F4F;\n"
-"font: 25pt \"Montserrat\";")
+"font: 20pt \"Montserrat\";")
         self.lbl_titulo_alterar_fornecedores.setTextInteractionFlags(QtCore.Qt.LinksAccessibleByMouse | QtCore.Qt.TextSelectableByMouse)
         self.lbl_titulo_alterar_fornecedores.setObjectName("lbl_titulo_alterar_fornecedores")
         self.btn_flitrar_alterar_fornecedores = QtWidgets.QPushButton(self.pg_alterar_fornecedores)
@@ -4123,7 +4123,7 @@ class Ui_FrmAdmin(object):
         self.lbl_titulo_cadastrar_fornecedores = QtWidgets.QLabel(self.pg_cadastrar_fornecedores)
         self.lbl_titulo_cadastrar_fornecedores.setGeometry(QtCore.QRect(40, 30, 600, 61))
         self.lbl_titulo_cadastrar_fornecedores.setStyleSheet("color: #4F4F4F;\n"
-"font: 25pt \"Montserrat\";")
+"font: 20pt \"Montserrat\";")
         self.lbl_titulo_cadastrar_fornecedores.setTextInteractionFlags(QtCore.Qt.LinksAccessibleByMouse | QtCore.Qt.TextSelectableByMouse)
         self.lbl_titulo_cadastrar_fornecedores.setObjectName("lbl_titulo_cadastrar_fornecedores")
         self.line_cadastrar_contato_fornecedores = QtWidgets.QLineEdit(self.pg_cadastrar_fornecedores)
@@ -4328,11 +4328,11 @@ class Ui_FrmAdmin(object):
         self.lbl_titulo_clientes = QtWidgets.QLabel(self.pg_clientes)
         self.lbl_titulo_clientes.setGeometry(QtCore.QRect(40, 30, 411, 51))
         self.lbl_titulo_clientes.setStyleSheet("color: #4F4F4F;\n"
-"font: 25pt \"Montserrat\";")
+"font: 20pt \"Montserrat\";")
         self.lbl_titulo_clientes.setTextInteractionFlags(QtCore.Qt.LinksAccessibleByMouse | QtCore.Qt.TextSelectableByMouse)
         self.lbl_titulo_clientes.setObjectName("lbl_titulo_clientes")
         self.lbl_hora_data_clientes = QtWidgets.QLabel(self.pg_clientes)
-        self.lbl_hora_data_clientes.setGeometry(QtCore.QRect(1600, 800, 290, 46))
+        self.lbl_hora_data_clientes.setGeometry(QtCore.QRect(1550, 850, 290, 46))
         self.lbl_hora_data_clientes.setStyleSheet("font: 15pt \"Montserrat\";\n"
 "color: #4F4F4F;\n"
 "")
@@ -4358,7 +4358,7 @@ class Ui_FrmAdmin(object):
 "background-color: rgb(54, 204, 51);\n"
 "color: white;\n"
 "border-radius: 5px;\n"
-"font: 15pt \"Montserrat\";\n"
+"font: 12pt \"Montserrat\";\n"
 "outline: 0;\n"
 "}\n"
 "\n"
@@ -4374,7 +4374,7 @@ class Ui_FrmAdmin(object):
 "background-color: rgb(54, 204, 51);\n"
 "color: white;\n"
 "border-radius: 5px;\n"
-"font: 15pt \"Montserrat\";\n"
+"font: 12pt \"Montserrat\";\n"
 "outline: 0;\n"
 "}\n"
 "\n"
@@ -4518,7 +4518,7 @@ class Ui_FrmAdmin(object):
         self.lbl_titulo_alterar_clientes = QtWidgets.QLabel(self.pg_alterar_clientes)
         self.lbl_titulo_alterar_clientes.setGeometry(QtCore.QRect(40, 30, 401, 41))
         self.lbl_titulo_alterar_clientes.setStyleSheet("color: #4F4F4F;\n"
-"font: 25pt \"Montserrat\";")
+"font: 20pt \"Montserrat\";")
         self.lbl_titulo_alterar_clientes.setTextInteractionFlags(QtCore.Qt.LinksAccessibleByMouse | QtCore.Qt.TextSelectableByMouse)
         self.lbl_titulo_alterar_clientes.setObjectName("lbl_titulo_alterar_clientes")
         self.line_alterar_endereco_alterar_clientes = QtWidgets.QLineEdit(self.pg_alterar_clientes)
@@ -4534,7 +4534,7 @@ class Ui_FrmAdmin(object):
         self.line_alterar_endereco_alterar_clientes.setClearButtonEnabled(True)
         self.line_alterar_endereco_alterar_clientes.setObjectName("line_alterar_endereco_alterar_clientes")
         self.lbl_hora_data_alterar_clientes = QtWidgets.QLabel(self.pg_alterar_clientes)
-        self.lbl_hora_data_alterar_clientes.setGeometry(QtCore.QRect(1600, 150, 201, 21))
+        self.lbl_hora_data_alterar_clientes.setGeometry(QtCore.QRect(1550, 30, 251, 41))
         self.lbl_hora_data_alterar_clientes.setStyleSheet("font: 15pt \"Montserrat\";\n"
 "color: #4F4F4F;\n"
 "")
@@ -4677,7 +4677,7 @@ class Ui_FrmAdmin(object):
         self.lbl_titulo_cadastrar_clientes = QtWidgets.QLabel(self.pg_cadastrar_clientes)
         self.lbl_titulo_cadastrar_clientes.setGeometry(QtCore.QRect(40, 30, 401, 41))
         self.lbl_titulo_cadastrar_clientes.setStyleSheet("color: #4F4F4F;\n"
-"font: 25pt \"Montserrat\";")
+"font: 20pt \"Montserrat\";")
         self.lbl_titulo_cadastrar_clientes.setTextInteractionFlags(QtCore.Qt.LinksAccessibleByMouse | QtCore.Qt.TextSelectableByMouse)
         self.lbl_titulo_cadastrar_clientes.setObjectName("lbl_titulo_cadastrar_clientes")
         self.line_contato_cadastrar_clientes = QtWidgets.QLineEdit(self.pg_cadastrar_clientes)
@@ -4693,7 +4693,7 @@ class Ui_FrmAdmin(object):
         self.line_contato_cadastrar_clientes.setClearButtonEnabled(True)
         self.line_contato_cadastrar_clientes.setObjectName("line_contato_cadastrar_clientes")
         self.lbl_hora_data_cadastrar_clientes = QtWidgets.QLabel(self.pg_cadastrar_clientes)
-        self.lbl_hora_data_cadastrar_clientes.setGeometry(QtCore.QRect(1600, 150, 201, 31))
+        self.lbl_hora_data_cadastrar_clientes.setGeometry(QtCore.QRect(1550, 30, 251, 41))
         self.lbl_hora_data_cadastrar_clientes.setStyleSheet("font: 15pt \"Montserrat\";\n"
 "color: #4F4F4F;\n"
 "")
@@ -4796,7 +4796,7 @@ class Ui_FrmAdmin(object):
         self.pg_cadastro_colaboradores = QtWidgets.QWidget()
         self.pg_cadastro_colaboradores.setObjectName("pg_cadastro_colaboradores")
         self.lbl_titulo_cadastrar_colaboradores = QtWidgets.QLabel(self.pg_cadastro_colaboradores)
-        self.lbl_titulo_cadastrar_colaboradores.setGeometry(QtCore.QRect(700, 30, 551, 41))
+        self.lbl_titulo_cadastrar_colaboradores.setGeometry(QtCore.QRect(700, 30, 601, 71))
         self.lbl_titulo_cadastrar_colaboradores.setStyleSheet("font: 30pt \"Montserrat\";\n"
 "color: #4F4F4F;\n"
 "")
@@ -4957,7 +4957,7 @@ class Ui_FrmAdmin(object):
         self.btn_pesquisar_alterar_colaboradores.setObjectName("btn_pesquisar_alterar_colaboradores")
         self.lbl_titulo_alterar_colaboradores = QtWidgets.QLabel(self.pg_alterar_colaboradores)
         self.lbl_titulo_alterar_colaboradores.setGeometry(QtCore.QRect(40, 30, 551, 41))
-        self.lbl_titulo_alterar_colaboradores.setStyleSheet("font: 25pt \"Montserrat\";\n"
+        self.lbl_titulo_alterar_colaboradores.setStyleSheet("font: 20pt \"Montserrat\";\n"
 "color: #4F4F4F;\n"
 "")
         self.lbl_titulo_alterar_colaboradores.setTextFormat(QtCore.Qt.AutoText)
@@ -5017,7 +5017,7 @@ class Ui_FrmAdmin(object):
 "background-color: rgb(54, 204, 51);\n"
 "color: white;\n"
 "border-radius: 5px;\n"
-"font: 15pt \"Montserrat\";\n"
+"font: 13pt \"Montserrat\";\n"
 "outline: 0;\n"
 "}\n"
 "\n"
@@ -5027,7 +5027,7 @@ class Ui_FrmAdmin(object):
 "")
         self.btn_finalizar_alterar_colaboradores.setObjectName("btn_finalizar_alterar_colaboradores")
         self.lbl_hora_data_alterar_colaboradores = QtWidgets.QLabel(self.pg_alterar_colaboradores)
-        self.lbl_hora_data_alterar_colaboradores.setGeometry(QtCore.QRect(1600, 150, 201, 31))
+        self.lbl_hora_data_alterar_colaboradores.setGeometry(QtCore.QRect(1550, 30, 251, 31))
         self.lbl_hora_data_alterar_colaboradores.setStyleSheet("font: 15pt \"Montserrat\";\n"
 "color: #4F4F4F;\n"
 "")
@@ -5087,8 +5087,8 @@ class Ui_FrmAdmin(object):
         self.tabela_colaboradores.verticalHeader().setSortIndicatorShown(False)
         self.tabela_colaboradores.verticalHeader().setStretchLastSection(False)
         self.lbl_titulo_colaboradores = QtWidgets.QLabel(self.pg_colaboradores)
-        self.lbl_titulo_colaboradores.setGeometry(QtCore.QRect(40, 30, 551, 41))
-        self.lbl_titulo_colaboradores.setStyleSheet("font: 25pt \"Montserrat\";\n"
+        self.lbl_titulo_colaboradores.setGeometry(QtCore.QRect(40, 30, 551, 51))
+        self.lbl_titulo_colaboradores.setStyleSheet("font: 20pt \"Montserrat\";\n"
 "color: #4F4F4F;\n"
 "")
         self.lbl_titulo_colaboradores.setTextFormat(QtCore.Qt.AutoText)
@@ -5170,7 +5170,7 @@ class Ui_FrmAdmin(object):
 "")
         self.btn_cadastrar_colaboradores.setObjectName("btn_cadastrar_colaboradores")
         self.lbl_hora_data_colaboradores = QtWidgets.QLabel(self.pg_colaboradores)
-        self.lbl_hora_data_colaboradores.setGeometry(QtCore.QRect(1600, 800, 290, 46))
+        self.lbl_hora_data_colaboradores.setGeometry(QtCore.QRect(1550, 850, 290, 46))
         self.lbl_hora_data_colaboradores.setStyleSheet("font: 15pt \"Montserrat\";\n"
 "color: #4F4F4F;\n"
 "")
@@ -5183,7 +5183,7 @@ class Ui_FrmAdmin(object):
         self.pg_monitoramento_vendas.setObjectName("pg_monitoramento_vendas")
         self.lbl_titulo_monitoramento_vendas = QtWidgets.QLabel(self.pg_monitoramento_vendas)
         self.lbl_titulo_monitoramento_vendas.setGeometry(QtCore.QRect(40, 30, 551, 51))
-        self.lbl_titulo_monitoramento_vendas.setStyleSheet("font: 25pt \"Montserrat\";\n"
+        self.lbl_titulo_monitoramento_vendas.setStyleSheet("font: 20pt \"Montserrat\";\n"
 "color: #4F4F4F;\n"
 "")
         self.lbl_titulo_monitoramento_vendas.setTextFormat(QtCore.Qt.AutoText)
@@ -5275,7 +5275,7 @@ class Ui_FrmAdmin(object):
         self.tabela_monitoramento_vendas.verticalHeader().setSortIndicatorShown(False)
         self.tabela_monitoramento_vendas.verticalHeader().setStretchLastSection(False)
         self.lbl_hora_data_monitoramento_vendas = QtWidgets.QLabel(self.pg_monitoramento_vendas)
-        self.lbl_hora_data_monitoramento_vendas.setGeometry(QtCore.QRect(1600, 800, 290, 46))
+        self.lbl_hora_data_monitoramento_vendas.setGeometry(QtCore.QRect(1550, 850, 290, 46))
         self.lbl_hora_data_monitoramento_vendas.setStyleSheet("font: 15pt \"Montserrat\";\n"
 "color: #4F4F4F;\n"
 "")
@@ -5347,7 +5347,7 @@ class Ui_FrmAdmin(object):
 "")
         self.btn_finalizar_carregamento.setObjectName("btn_finalizar_carregamento")
         self.lbl_hora_data_carregamento = QtWidgets.QLabel(self.pg_compras)
-        self.lbl_hora_data_carregamento.setGeometry(QtCore.QRect(1600, 800, 290, 46))
+        self.lbl_hora_data_carregamento.setGeometry(QtCore.QRect(1550, 850, 290, 46))
         self.lbl_hora_data_carregamento.setStyleSheet("font: 15pt \"Montserrat\";\n"
 "color: #4F4F4F;\n"
 "")
@@ -5463,7 +5463,7 @@ class Ui_FrmAdmin(object):
         self.tabela_vendas_carregamento.verticalHeader().setStretchLastSection(False)
         self.lbl_titulo_vendas_carregamento = QtWidgets.QLabel(self.pg_compras)
         self.lbl_titulo_vendas_carregamento.setGeometry(QtCore.QRect(40, 30, 551, 41))
-        self.lbl_titulo_vendas_carregamento.setStyleSheet("font: 25pt \"Montserrat\";\n"
+        self.lbl_titulo_vendas_carregamento.setStyleSheet("font: 20pt \"Montserrat\";\n"
 "color: #4F4F4F;\n"
 "")
         self.lbl_titulo_vendas_carregamento.setTextFormat(QtCore.Qt.AutoText)
@@ -5521,7 +5521,7 @@ class Ui_FrmAdmin(object):
         self.pg_vendas.setObjectName("pg_vendas")
         self.lbl_titulo_vendas = QtWidgets.QLabel(self.pg_vendas)
         self.lbl_titulo_vendas.setGeometry(QtCore.QRect(40, 30, 650, 51))
-        self.lbl_titulo_vendas.setStyleSheet("font: 25pt \"Montserrat\";\n"
+        self.lbl_titulo_vendas.setStyleSheet("font: 20pt \"Montserrat\";\n"
 "color: #4F4F4F;\n"
 "")
         self.lbl_titulo_vendas.setTextFormat(QtCore.Qt.AutoText)
@@ -5783,7 +5783,7 @@ class Ui_FrmAdmin(object):
 "")
         self.btn_finalizar_compra.setObjectName("btn_finalizar_compra")
         self.lbl_hora_data = QtWidgets.QLabel(self.pg_vendas)
-        self.lbl_hora_data.setGeometry(QtCore.QRect(1600, 800, 290, 46))
+        self.lbl_hora_data.setGeometry(QtCore.QRect(1550, 850, 290, 46))
         self.lbl_hora_data.setStyleSheet("font: 15pt \"Montserrat\";\n"
 "color: #4F4F4F;\n"
 "")
@@ -5906,7 +5906,7 @@ class Ui_FrmAdmin(object):
         self.pg_produtos.setObjectName("pg_produtos")
         self.lbl_titulo_produtos = QtWidgets.QLabel(self.pg_produtos)
         self.lbl_titulo_produtos.setGeometry(QtCore.QRect(40, 30, 241, 41))
-        self.lbl_titulo_produtos.setStyleSheet("font: 25pt \"Montserrat\";\n"
+        self.lbl_titulo_produtos.setStyleSheet("font: 20pt \"Montserrat\";\n"
 "color: #4F4F4F;\n"
 "")
         self.lbl_titulo_produtos.setTextFormat(QtCore.Qt.AutoText)
@@ -6071,7 +6071,7 @@ class Ui_FrmAdmin(object):
 "")
         self.btn_confirmar_codigo.setObjectName("btn_confirmar_codigo")
         self.lbl_hora_data_produtos = QtWidgets.QLabel(self.pg_produtos)
-        self.lbl_hora_data_produtos.setGeometry(QtCore.QRect(1600, 800, 290, 46))
+        self.lbl_hora_data_produtos.setGeometry(QtCore.QRect(1550, 850, 290, 46))
         self.lbl_hora_data_produtos.setStyleSheet("font: 15pt \"Montserrat\";\n"
 "color: #4F4F4F;\n"
 "")
@@ -6145,7 +6145,7 @@ class Ui_FrmAdmin(object):
         self.tabela_monitoramento_compras.verticalHeader().setStretchLastSection(False)
         self.lbl_titulo_monitoramento_compras = QtWidgets.QLabel(self.pg_monitoramento_compras)
         self.lbl_titulo_monitoramento_compras.setGeometry(QtCore.QRect(40, 30, 551, 41))
-        self.lbl_titulo_monitoramento_compras.setStyleSheet("font: 25pt \"Montserrat\";\n"
+        self.lbl_titulo_monitoramento_compras.setStyleSheet("font: 20pt \"Montserrat\";\n"
 "color: #4F4F4F;\n"
 "")
         self.lbl_titulo_monitoramento_compras.setTextFormat(QtCore.Qt.AutoText)
@@ -6169,7 +6169,7 @@ class Ui_FrmAdmin(object):
 "")
         self.btn_gerar_excel_compras.setObjectName("btn_gerar_excel_compras")
         self.lbl_hora_data_monitoramento_compras = QtWidgets.QLabel(self.pg_monitoramento_compras)
-        self.lbl_hora_data_monitoramento_compras.setGeometry(QtCore.QRect(1600, 800, 290, 46))
+        self.lbl_hora_data_monitoramento_compras.setGeometry(QtCore.QRect(1550, 850, 290, 46))
         self.lbl_hora_data_monitoramento_compras.setStyleSheet("font: 15pt \"Montserrat\";\n"
 "color: #4F4F4F;\n"
 "")
@@ -6228,7 +6228,7 @@ class Ui_FrmAdmin(object):
         self.pg_cadastar_produtos = QtWidgets.QWidget()
         self.pg_cadastar_produtos.setObjectName("pg_cadastar_produtos")
         self.lbl_titulo_cadastrar_produto = QtWidgets.QLabel(self.pg_cadastar_produtos)
-        self.lbl_titulo_cadastrar_produto.setGeometry(QtCore.QRect(40, 30, 241, 41))
+        self.lbl_titulo_cadastrar_produto.setGeometry(QtCore.QRect(40, 30, 300, 41))
         self.lbl_titulo_cadastrar_produto.setStyleSheet("font: 20pt \"Montserrat\";\n"
 "color: #4F4F4F;\n"
 "")
@@ -6354,7 +6354,7 @@ class Ui_FrmAdmin(object):
 "background-color: rgb(54, 204, 51);\n"
 "color: white;\n"
 "border-radius: 5px;\n"
-"font: 15pt \"Montserrat\";\n"
+"font: 13pt \"Montserrat\";\n"
 "outline: 0;\n"
 "}\n"
 "\n"
@@ -6390,7 +6390,7 @@ class Ui_FrmAdmin(object):
         self.line_search_Bar_cadastrar_produto.setClearButtonEnabled(True)
         self.line_search_Bar_cadastrar_produto.setObjectName("line_search_Bar_cadastrar_produto")
         self.lbl_hora_data_cadastrar_produto = QtWidgets.QLabel(self.pg_cadastar_produtos)
-        self.lbl_hora_data_cadastrar_produto.setGeometry(QtCore.QRect(1600, 30, 201, 31))
+        self.lbl_hora_data_cadastrar_produto.setGeometry(QtCore.QRect(1550, 30, 251, 31))
         self.lbl_hora_data_cadastrar_produto.setStyleSheet("font: 15pt \"Montserrat\";\n"
 "color: #4F4F4F;\n"
 "")
@@ -6497,7 +6497,7 @@ class Ui_FrmAdmin(object):
         self.tabela_alterar_produto.verticalHeader().setStretchLastSection(False)
         self.lbl_titulo_alterar_produto = QtWidgets.QLabel(self.pg_alterar_produtos)
         self.lbl_titulo_alterar_produto.setGeometry(QtCore.QRect(40, 30, 241, 41))
-        self.lbl_titulo_alterar_produto.setStyleSheet("font: 25pt \"Montserrat\";\n"
+        self.lbl_titulo_alterar_produto.setStyleSheet("font: 20pt \"Montserrat\";\n"
 "color: #4F4F4F;\n"
 "")
         self.lbl_titulo_alterar_produto.setTextFormat(QtCore.Qt.AutoText)
@@ -6575,7 +6575,7 @@ class Ui_FrmAdmin(object):
         self.line_search_Bar_alterar_produto.setClearButtonEnabled(True)
         self.line_search_Bar_alterar_produto.setObjectName("line_search_Bar_alterar_produto")
         self.lbl_hora_data_alterar_produto = QtWidgets.QLabel(self.pg_alterar_produtos)
-        self.lbl_hora_data_alterar_produto.setGeometry(QtCore.QRect(1600, 30, 201, 31))
+        self.lbl_hora_data_alterar_produto.setGeometry(QtCore.QRect(1550, 30, 251, 31))
         self.lbl_hora_data_alterar_produto.setStyleSheet("font: 15pt \"Montserrat\";\n"
 "color: #4F4F4F;\n"
 "")
